@@ -30,6 +30,7 @@ $ pip install -r requirements.txt
 ## Uso:
 Ejecuta el script principal desde la terminal:
 $ python main.py
+
 Esto lanzará el scraping sobre las primeras 20 páginas del ranking de jugadores más valiosos de Europa y generará el dataset con los resultados obtenidos.
 
 ## Notas:
