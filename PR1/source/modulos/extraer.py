@@ -117,20 +117,21 @@ def extraer_jugadores(driver):
     jugadores = []
     for i in range(len(PlayersList)):
         jugadores.append({
-            "Nombre": PlayersList[i] if i < len(PlayersList) else "N/A",
-            "Edad": AgeList[i] if i < len(AgeList) else "N/A",
-            "Nacionalidad": NationalityList[i] if i < len(NationalityList) else "N/A",
+            "Name": PlayersList[i] if i < len(PlayersList) else "N/A",
+            "Age": AgeList[i] if i < len(AgeList) else "N/A",
+            "Nationality": NationalityList[i] if i < len(NationalityList) else "N/A",
             "Club": ClubList[i] if i < len(ClubList) else "N/A",
-            "Valor de Mercado": PlayerValueList[i] if i < len(PlayerValueList) else "N/A",
-            "Titular": LineupList[i] if i < len(LineupList) else "N/A",
-            "Goles": GoalsList[i] if i < len(GoalsList) else "N/A",
-            "Autogoles": AutoGoalsList[i] if i < len(AutoGoalsList) else "N/A",
-            "Asistencias": AssistsList[i] if i < len(AssistsList) else "N/A",
-            "Amarillas": YellowcardsList[i] if i < len(YellowcardsList) else "N/A",
-            "Doble Amarilla": DoubleYellowcardsList[i] if i < len(DoubleYellowcardsList) else "N/A",
-            "Rojas": RedcardsList[i] if i < len(RedcardsList) else "N/A",
-            "Sustituciones In": SubInList[i] if i < len(SubInList) else "N/A",
-            "Sustituciones Out": SubOutList[i] if i < len(SubOutList) else "N/A",
+            "Market Value": PlayerValueList[i] if i < len(PlayerValueList) else "N/A",
+            "Starts": LineupList[i] if i < len(LineupList) else "N/A",
+            "Goals": GoalsList[i] if i < len(GoalsList) else "N/A",
+            "Own Goals": AutoGoalsList[i] if i < len(AutoGoalsList) else "N/A",
+            "Assists": AssistsList[i] if i < len(AssistsList) else "N/A",
+            "Yellow Cards": YellowcardsList[i] if i < len(YellowcardsList) else "N/A",
+            "Second Yellow Cards": DoubleYellowcardsList[i] if i < len(DoubleYellowcardsList) else "N/A",
+            "Red Cards": RedcardsList[i] if i < len(RedcardsList) else "N/A",
+            "Substitutions In": SubInList[i] if i < len(SubInList) else "N/A",
+            "Substitutions Out": SubOutList[i] if i < len(SubOutList) else "N/A",
         })
+
 
     return jugadores
