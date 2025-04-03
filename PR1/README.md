@@ -20,8 +20,6 @@ Este script de Python realiza Web Scraping sobre el sitio web Transfermarkt para
 Instala los paquetes necesarios ejecutando:
 $ pip install -r requirements.txt
 
-
-
 ## Estructura del código:
 
 1. `configuracion.py`: Inicializa el navegador con configuraciones avanzadas para evitar detección, incluyendo rotación de user agents, navegación en modo incógnito, etc.
@@ -31,8 +29,7 @@ $ pip install -r requirements.txt
 
 ## Uso:
 Ejecuta el script principal desde la terminal:
-$ python main_idealista_v4.py
-
+$ python main.py
 Esto lanzará el scraping sobre las primeras 20 páginas del ranking de jugadores más valiosos de Europa y generará el dataset con los resultados obtenidos.
 
 ## Notas:
