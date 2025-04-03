@@ -14,12 +14,12 @@ URL = "https://www.transfermarkt.com/spieler-statistik/wertvollstespieler/marktw
 def main():
     driver =  None
     try:
-        # Se confirua y se inicializa el driver
+        # Se configura y se inicializa el driver
         driver = iniciar_driver()
         # Mediante el driver accedemos a la URL definida
         navegar_a_pagina(driver, URL)
         jugadores_mas_valorados = []
-        # Escogemos la opción UEFA (6) dentro del filtro Continen y pulsamos el boton show
+        # Escogemos la opción UEFA (6) dentro del filtro Continente y pulsamos el boton show
         if filtro_UEFA(driver):
             print("Filtro UEFA aplicado correctamente.")
         else:
@@ -39,7 +39,7 @@ def main():
             jugadores = extraer_jugadores(driver)
             jugadores_mas_valorados.extend(jugadores)
             time.sleep(3)
-            # Una vex extraido todo pulsamos el boton de siguiente página para ir a la siguiente tabla
+            # Una vez extraido todo, pulsamos el boton de siguiente página para ir a la siguiente tabla
             siguiente_tabla = buscar_siguiente_tabla(driver)
             # Cuando no haya más tablas cerramos el navegador
             if siguiente_tabla:
