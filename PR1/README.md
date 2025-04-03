@@ -8,20 +8,7 @@ Repositorio que contiene todos los archivos para la práctica 1 de la asignatura
 
 ## Descripción:
 Este script de Python realiza Web Scraping sobre el sitio web Transfermarkt para recopilar información sobre los jugadores con mayor valor de mercado del continente europeo (UEFA). Utiliza Selenium y undetected_chromedriver para automatizar la navegación y evitar bloqueos. El objetivo final es generar un dataset en formato CSV que permita realizar análisis futbolísticos orientados al scouting, predicción de talento y toma de decisiones basada en estadísticas.
-## Estructura del proyecto
-
-PR1/
-├── source/
-│   ├── main.py          
-│   └── modulos/              
-│       ├── configuracion.py
-│       ├── navegacion.py
-│       └── extraer.py
-├── dataset/
-│   └── transfermarkt_top_players.csv
-├── doi.txt            
-├── requirements.txt        
-└── README.md        
+     
 ## Dependencies:
 - Python 3.x  
 - pandas  
