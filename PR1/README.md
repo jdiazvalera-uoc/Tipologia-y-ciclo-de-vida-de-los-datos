@@ -37,5 +37,4 @@ Esto lanzará el scraping sobre las primeras 20 páginas del ranking de jugadore
 - El scraping se realiza respetando el archivo `robots.txt` de Transfermarkt.
 - Se han incorporado buenas prácticas como pausas aleatorias entre acciones y ocultamiento de elementos que interfieren con la navegación.
 - El proyecto incluye modularidad total: cada bloque de código (configuración, navegación, extracción) se encuentra separado y reutilizable.
-- Para el correcto funcionamiento del script se debe de tener la última versiona ctuaizada del navegador
-Chrome.
+- Para el correcto funcionamiento del script se debe tener la última version actuaizada del navegador Chrome.
